@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+.comment-box {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 15px;;
+}
+
+.comment-area {
+  min-width: 500px;
+  min-height: 200px;
+}
+
+.comments-display {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid black;
+  min-width: 400px;
+  min-height: 200px;
+  overflow: auto;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+.liked-text {
+  color: blue;
+}
